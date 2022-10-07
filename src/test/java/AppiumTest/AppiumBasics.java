@@ -12,7 +12,7 @@ public class AppiumBasics extends BaseTestClass {
 	public void Logintest() throws MalformedURLException{
     		
 		driver.findElement(AppiumBy.id("com.android.packageinstaller:id/permission_allow_button")).click();
-		driver.findElement(AppiumBy.id("com.veritread.carrier.debug:id/textViewQA")).click();
+		driver.findElement(AppiumBy.id("com.veritread.carrier.debug:id/textViewQA")).click();  //test by deliya
 		
 	}
 	
